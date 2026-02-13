@@ -1,11 +1,12 @@
 {
-  "doNotPublishApps": false,
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/c4fccf9d7ad320c47514259f242369eb13444ae4/.Modules/settings.schema.json",
+  "doNotPublishApps": false,
   "type": "AppSource App",
   "MicrosoftTelemetryConnectionString": "",
   "runs-on": "ubuntu-latest",
   "PullRequestTrigger": "pull_request",
   "shell": "pwsh",
   "templateUrl": "https://github.com/businesscentralapps/tmpsspvVL-AppSource@main",
-  "useCompilerFolder": false
+  "useCompilerFolder": false,
+  "templateSha": "4e9a21bacdeb351c0e8a471e4feb3359e018b0e5"
 }
